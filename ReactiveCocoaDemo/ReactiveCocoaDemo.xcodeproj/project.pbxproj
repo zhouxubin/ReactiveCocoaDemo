@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F032C192101B2F300E34F1B /* TanLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F032C182101B2F300E34F1B /* TanLoginViewModel.m */; };
+		9FDD8EE220E0D9BF00F04FE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8EE120E0D9BF00F04FE7 /* AppDelegate.m */; };
+		9FDD8EE520E0D9BF00F04FE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8EE420E0D9BF00F04FE7 /* ViewController.m */; };
+		9FDD8EE820E0D9BF00F04FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD8EE620E0D9BF00F04FE7 /* Main.storyboard */; };
+		9FDD8EEA20E0D9C100F04FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD8EE920E0D9C100F04FE7 /* Assets.xcassets */; };
+		9FDD8EED20E0D9C100F04FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD8EEB20E0D9C100F04FE7 /* LaunchScreen.storyboard */; };
+		9FDD8EF020E0D9C100F04FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8EEF20E0D9C100F04FE7 /* main.m */; };
+		9FDD8EFA20E0D9C100F04FE7 /* ReactiveCocoaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8EF920E0D9C100F04FE7 /* ReactiveCocoaDemoTests.m */; };
+		9FDD8F0520E0D9C100F04FE7 /* ReactiveCocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8F0420E0D9C100F04FE7 /* ReactiveCocoaDemoUITests.m */; };
+		EBC297D976277295BF84EC06 /* libPods-ReactiveCocoaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC078C4735CD093BEF5D8E9 /* libPods-ReactiveCocoaDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FDD8EF620E0D9C100F04FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FDD8ED520E0D9BF00F04FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FDD8EDC20E0D9BF00F04FE7;
+			remoteInfo = ReactiveCocoaDemo;
+		};
+		9FDD8F0120E0D9C100F04FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FDD8ED520E0D9BF00F04FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FDD8EDC20E0D9BF00F04FE7;
+			remoteInfo = ReactiveCocoaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F032C172101B2F300E34F1B /* TanLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TanLoginViewModel.h; sourceTree = "<group>"; };
+		9F032C182101B2F300E34F1B /* TanLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanLoginViewModel.m; sourceTree = "<group>"; };
+		9FDD8EDD20E0D9BF00F04FE7 /* ReactiveCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDD8EE020E0D9BF00F04FE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FDD8EE120E0D9BF00F04FE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FDD8EE320E0D9BF00F04FE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FDD8EE420E0D9BF00F04FE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FDD8EE720E0D9BF00F04FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FDD8EE920E0D9C100F04FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FDD8EEC20E0D9C100F04FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FDD8EEE20E0D9C100F04FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDD8EEF20E0D9C100F04FE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FDD8EF520E0D9C100F04FE7 /* ReactiveCocoaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDD8EF920E0D9C100F04FE7 /* ReactiveCocoaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaDemoTests.m; sourceTree = "<group>"; };
+		9FDD8EFB20E0D9C100F04FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDD8F0020E0D9C100F04FE7 /* ReactiveCocoaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDD8F0420E0D9C100F04FE7 /* ReactiveCocoaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaDemoUITests.m; sourceTree = "<group>"; };
+		9FDD8F0620E0D9C100F04FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC078C4735CD093BEF5D8E9 /* libPods-ReactiveCocoaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A9977D3AD78B95353072A1 /* Pods-ReactiveCocoaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemo/Pods-ReactiveCocoaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F533E8AC1CCDC2848C25B90C /* Pods-ReactiveCocoaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemo/Pods-ReactiveCocoaDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FDD8EDA20E0D9BF00F04FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC297D976277295BF84EC06 /* libPods-ReactiveCocoaDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDD8EF220E0D9C100F04FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDD8EFD20E0D9C100F04FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069B1B1D8DDC4A95C6F26347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5A9977D3AD78B95353072A1 /* Pods-ReactiveCocoaDemo.debug.xcconfig */,
+				F533E8AC1CCDC2848C25B90C /* Pods-ReactiveCocoaDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		725E3A56E83C7F30AC2EBD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC078C4735CD093BEF5D8E9 /* libPods-ReactiveCocoaDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FDD8ED420E0D9BF00F04FE7 = {
+			isa = PBXGroup;
+			children = (
+				9FDD8EDF20E0D9BF00F04FE7 /* ReactiveCocoaDemo */,
+				9FDD8EF820E0D9C100F04FE7 /* ReactiveCocoaDemoTests */,
+				9FDD8F0320E0D9C100F04FE7 /* ReactiveCocoaDemoUITests */,
+				9FDD8EDE20E0D9BF00F04FE7 /* Products */,
+				069B1B1D8DDC4A95C6F26347 /* Pods */,
+				725E3A56E83C7F30AC2EBD57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FDD8EDE20E0D9BF00F04FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD8EDD20E0D9BF00F04FE7 /* ReactiveCocoaDemo.app */,
+				9FDD8EF520E0D9C100F04FE7 /* ReactiveCocoaDemoTests.xctest */,
+				9FDD8F0020E0D9C100F04FE7 /* ReactiveCocoaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FDD8EDF20E0D9BF00F04FE7 /* ReactiveCocoaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD8EE020E0D9BF00F04FE7 /* AppDelegate.h */,
+				9FDD8EE120E0D9BF00F04FE7 /* AppDelegate.m */,
+				9FDD8EE320E0D9BF00F04FE7 /* ViewController.h */,
+				9FDD8EE420E0D9BF00F04FE7 /* ViewController.m */,
+				9F032C172101B2F300E34F1B /* TanLoginViewModel.h */,
+				9F032C182101B2F300E34F1B /* TanLoginViewModel.m */,
+				9FDD8EE620E0D9BF00F04FE7 /* Main.storyboard */,
+				9FDD8EE920E0D9C100F04FE7 /* Assets.xcassets */,
+				9FDD8EEB20E0D9C100F04FE7 /* LaunchScreen.storyboard */,
+				9FDD8EEE20E0D9C100F04FE7 /* Info.plist */,
+				9FDD8EEF20E0D9C100F04FE7 /* main.m */,
+			);
+			path = ReactiveCocoaDemo;
+			sourceTree = "<group>";
+		};
+		9FDD8EF820E0D9C100F04FE7 /* ReactiveCocoaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD8EF920E0D9C100F04FE7 /* ReactiveCocoaDemoTests.m */,
+				9FDD8EFB20E0D9C100F04FE7 /* Info.plist */,
+			);
+			path = ReactiveCocoaDemoTests;
+			sourceTree = "<group>";
+		};
+		9FDD8F0320E0D9C100F04FE7 /* ReactiveCocoaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD8F0420E0D9C100F04FE7 /* ReactiveCocoaDemoUITests.m */,
+				9FDD8F0620E0D9C100F04FE7 /* Info.plist */,
+			);
+			path = ReactiveCocoaDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FDD8EDC20E0D9BF00F04FE7 /* ReactiveCocoaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDD8F0920E0D9C100F04FE7 /* Build configuration list for PBXNativeTarget "ReactiveCocoaDemo" */;
+			buildPhases = (
+				516339082B944052BBE410CB /* [CP] Check Pods Manifest.lock */,
+				9FDD8ED920E0D9BF00F04FE7 /* Sources */,
+				9FDD8EDA20E0D9BF00F04FE7 /* Frameworks */,
+				9FDD8EDB20E0D9BF00F04FE7 /* Resources */,
+				B5788BB9B50D5C8A2B3D56A4 /* [CP] Embed Pods Frameworks */,
+				15BD438DAF929C936D7ED588 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveCocoaDemo;
+			productName = ReactiveCocoaDemo;
+			productReference = 9FDD8EDD20E0D9BF00F04FE7 /* ReactiveCocoaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FDD8EF420E0D9C100F04FE7 /* ReactiveCocoaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDD8F0C20E0D9C100F04FE7 /* Build configuration list for PBXNativeTarget "ReactiveCocoaDemoTests" */;
+			buildPhases = (
+				9FDD8EF120E0D9C100F04FE7 /* Sources */,
+				9FDD8EF220E0D9C100F04FE7 /* Frameworks */,
+				9FDD8EF320E0D9C100F04FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FDD8EF720E0D9C100F04FE7 /* PBXTargetDependency */,
+			);
+			name = ReactiveCocoaDemoTests;
+			productName = ReactiveCocoaDemoTests;
+			productReference = 9FDD8EF520E0D9C100F04FE7 /* ReactiveCocoaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FDD8EFF20E0D9C100F04FE7 /* ReactiveCocoaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDD8F0F20E0D9C100F04FE7 /* Build configuration list for PBXNativeTarget "ReactiveCocoaDemoUITests" */;
+			buildPhases = (
+				9FDD8EFC20E0D9C100F04FE7 /* Sources */,
+				9FDD8EFD20E0D9C100F04FE7 /* Frameworks */,
+				9FDD8EFE20E0D9C100F04FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FDD8F0220E0D9C100F04FE7 /* PBXTargetDependency */,
+			);
+			name = ReactiveCocoaDemoUITests;
+			productName = ReactiveCocoaDemoUITests;
+			productReference = 9FDD8F0020E0D9C100F04FE7 /* ReactiveCocoaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FDD8ED520E0D9BF00F04FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "周旭斌";
+				TargetAttributes = {
+					9FDD8EDC20E0D9BF00F04FE7 = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+					};
+					9FDD8EF420E0D9C100F04FE7 = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FDD8EDC20E0D9BF00F04FE7;
+					};
+					9FDD8EFF20E0D9C100F04FE7 = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FDD8EDC20E0D9BF00F04FE7;
+					};
+				};
+			};
+			buildConfigurationList = 9FDD8ED820E0D9BF00F04FE7 /* Build configuration list for PBXProject "ReactiveCocoaDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FDD8ED420E0D9BF00F04FE7;
+			productRefGroup = 9FDD8EDE20E0D9BF00F04FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FDD8EDC20E0D9BF00F04FE7 /* ReactiveCocoaDemo */,
+				9FDD8EF420E0D9C100F04FE7 /* ReactiveCocoaDemoTests */,
+				9FDD8EFF20E0D9C100F04FE7 /* ReactiveCocoaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FDD8EDB20E0D9BF00F04FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDD8EED20E0D9C100F04FE7 /* LaunchScreen.storyboard in Resources */,
+				9FDD8EEA20E0D9C100F04FE7 /* Assets.xcassets in Resources */,
+				9FDD8EE820E0D9BF00F04FE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDD8EF320E0D9C100F04FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDD8EFE20E0D9C100F04FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15BD438DAF929C936D7ED588 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaDemo/Pods-ReactiveCocoaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		516339082B944052BBE410CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveCocoaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5788BB9B50D5C8A2B3D56A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaDemo/Pods-ReactiveCocoaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FDD8ED920E0D9BF00F04FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDD8EE520E0D9BF00F04FE7 /* ViewController.m in Sources */,
+				9FDD8EF020E0D9C100F04FE7 /* main.m in Sources */,
+				9F032C192101B2F300E34F1B /* TanLoginViewModel.m in Sources */,
+				9FDD8EE220E0D9BF00F04FE7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDD8EF120E0D9C100F04FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDD8EFA20E0D9C100F04FE7 /* ReactiveCocoaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDD8EFC20E0D9C100F04FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDD8F0520E0D9C100F04FE7 /* ReactiveCocoaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FDD8EF720E0D9C100F04FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FDD8EDC20E0D9BF00F04FE7 /* ReactiveCocoaDemo */;
+			targetProxy = 9FDD8EF620E0D9C100F04FE7 /* PBXContainerItemProxy */;
+		};
+		9FDD8F0220E0D9C100F04FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FDD8EDC20E0D9BF00F04FE7 /* ReactiveCocoaDemo */;
+			targetProxy = 9FDD8F0120E0D9C100F04FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FDD8EE620E0D9BF00F04FE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDD8EE720E0D9BF00F04FE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FDD8EEB20E0D9C100F04FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDD8EEC20E0D9C100F04FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FDD8F0720E0D9C100F04FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FDD8F0820E0D9C100F04FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FDD8F0A20E0D9C100F04FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A9977D3AD78B95353072A1 /* Pods-ReactiveCocoaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveCocoaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xubin.com.ReactiveCocoaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FDD8F0B20E0D9C100F04FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F533E8AC1CCDC2848C25B90C /* Pods-ReactiveCocoaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveCocoaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xubin.com.ReactiveCocoaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FDD8F0D20E0D9C100F04FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveCocoaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xubin.com.ReactiveCocoaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoaDemo.app/ReactiveCocoaDemo";
+			};
+			name = Debug;
+		};
+		9FDD8F0E20E0D9C100F04FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveCocoaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xubin.com.ReactiveCocoaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoaDemo.app/ReactiveCocoaDemo";
+			};
+			name = Release;
+		};
+		9FDD8F1020E0D9C100F04FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveCocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xubin.com.ReactiveCocoaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactiveCocoaDemo;
+			};
+			name = Debug;
+		};
+		9FDD8F1120E0D9C100F04FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveCocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xubin.com.ReactiveCocoaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactiveCocoaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FDD8ED820E0D9BF00F04FE7 /* Build configuration list for PBXProject "ReactiveCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDD8F0720E0D9C100F04FE7 /* Debug */,
+				9FDD8F0820E0D9C100F04FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDD8F0920E0D9C100F04FE7 /* Build configuration list for PBXNativeTarget "ReactiveCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDD8F0A20E0D9C100F04FE7 /* Debug */,
+				9FDD8F0B20E0D9C100F04FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDD8F0C20E0D9C100F04FE7 /* Build configuration list for PBXNativeTarget "ReactiveCocoaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDD8F0D20E0D9C100F04FE7 /* Debug */,
+				9FDD8F0E20E0D9C100F04FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDD8F0F20E0D9C100F04FE7 /* Build configuration list for PBXNativeTarget "ReactiveCocoaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDD8F1020E0D9C100F04FE7 /* Debug */,
+				9FDD8F1120E0D9C100F04FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FDD8ED520E0D9BF00F04FE7 /* Project object */;
+}
